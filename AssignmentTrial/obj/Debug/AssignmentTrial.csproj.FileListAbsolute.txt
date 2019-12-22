@@ -71,3 +71,4 @@ C:\Users\Suman.Ghosh\source\repos\AssignmentTrial\AssignmentTrial\bin\Microsoft.
 C:\Users\Suman.Ghosh\source\repos\AssignmentTrial\AssignmentTrial\obj\Debug\AssignmentTrial.csproj.CopyComplete
 C:\Users\Suman.Ghosh\source\repos\AssignmentTrial\AssignmentTrial\obj\Debug\AssignmentTrial.dll
 C:\Users\Suman.Ghosh\source\repos\AssignmentTrial\AssignmentTrial\obj\Debug\AssignmentTrial.pdb
+C:\Users\Suman.Ghosh\source\repos\AssignmentTrial\AssignmentTrial\obj\Debug\AssignmentTrial.csprojAssemblyReference.cache

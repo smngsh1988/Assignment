@@ -10,8 +10,6 @@
   </Property>
 
   <Property Name="value">
-    <Validator Type="MaxLengthField" Max="240" ErrorMessage=" type is not matching with passed value_type."/>
-    <Validator Type="CheckDateTime" ErrorMessage=" type is not matching with passed value_type."/>
     <Validator Type="CheckFieldDatatype" ErrorMessage="value type is not matching with passed value_type."/>
     <Validator Type="RequiredField" ErrorMessage="value is required."/>
   </Property>
