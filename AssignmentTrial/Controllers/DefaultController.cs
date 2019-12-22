@@ -40,6 +40,7 @@ namespace AssignmentTrial.Controllers
                 {
                     string _FileName = Path.GetFileName(file.FileName);
                     _path = Path.Combine(Server.MapPath("~/UploadedFiles"), _FileName);
+
                     file.SaveAs(_path);
                 }
                 ViewBag.Message = "File Uploaded Successfully!!";
