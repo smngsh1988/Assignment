@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Properties>
+  <Property Name="signal">
+    <Validator Type="RequiredField" ErrorMessage="Signal value is required."/>
+  </Property>
+
+  <Property Name="value_type">
+    <Validator Type="RequiredField" ErrorMessage="value_type is required."/>
+  </Property>
+
+  <Property Name="value">
+    <Validator Type="MaxLengthField" Max="240" ErrorMessage=" type is not matching with passed value_type."/>
+    <Validator Type="CheckDateTime" ErrorMessage=" type is not matching with passed value_type."/>
+    <Validator Type="CheckFieldDatatype" ErrorMessage="value type is not matching with passed value_type."/>
+    <Validator Type="RequiredField" ErrorMessage="value is required."/>
+  </Property>
+</Properties>
+
